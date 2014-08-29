@@ -1,0 +1,40 @@
+{
+  "name": "thumbnail-psd",
+  "version": "0.0.1",
+  "description": "thumbnail for psd and other images",
+  "keywords": [
+    "thumbnail",
+    "psd",
+    "image"
+  ],
+  "author": "huyinghuan",
+  "homepage": "https://github.com/huyinghuan/thumbnail-psd",
+  "bugs": {
+    "url": "https://github.com/huyinghuan/thumbnail-psd/issues",
+    "email": "ec.huyinghuan@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huyinghuan/thumbnail-psd.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "fs-extra": "^0.11.0",
+    "imagemagick": "^0.1.3",
+    "psd": "^1.0.2"
+  },
+  "scripts": {
+    "prepublish": "coffee -o . -c src/",
+    "prestart": "coffee -o . -c src/",
+    "pretest": "coffee -o . -c src/",
+    "test": "node test/demo.js"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  }
+}
