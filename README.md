@@ -57,3 +57,7 @@ npm test
 
 ## Support
 JPEG, PNG, JPG, GIF, PSD
+
+## LICENSE
+MIT
+see https://github.com/huyinghuan/grunt-file2head/blob/master/LICENSE-MIT
